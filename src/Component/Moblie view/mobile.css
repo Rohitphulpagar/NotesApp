@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,200&family=Roboto:ital,wght@1,100&family=Single+Day&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    
+    /* background-color: black; */
+}
+body{
+    background-color: black;
+}
+
+.mobileApp{
+    width: 360px;
+    height:90vh;
+    background-color: white;
+    margin:  auto;
+    margin-top: 20px;
+    padding-top: 15px;
+}
+h1{
+    font-family: "roboto";
+    font-weight: bold;
+}
+.AppHeading{
+    display: block;
+    padding-left: 33px;
+    padding-top: 20px;
+   
+}
+.AddNotesDiv{
+    display: flex;
+    height:35px;
+justify-content: center;
+margin-top: 20px;
+}
+.AddNotes{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding-top: 5px;
+    width: 300px;
+    background-color: black;
+    font-family: "roboto";
+
+}
+
+.model{
+    display: flex;
+    flex-direction: column;
+    /* position: absolute; */
+    /* top:200px;
+    bottom:350px;
+    left: 620px;
+    right: 600px; */
+    background-color: aliceblue;
+    justify-content: center;
+    align-items: center;
+    height:170px;
+    width:320px;
+   margin: auto;
+   margin-top: 180px;
+ 
+}
+.groupNamess{
+    display: flex;
+    flex-direction: column;
+  margin-left: 10PX;
+    
+}
+.GroupNamesCategory{
+    margin-left: 15px;
+    margin-top: 15px;
+   
+    font-family: "roboto";
+    font-weight: bold;
+}
+.PopHeading{
+    display: flex;
+    justify-content: center;
+    padding-top: 5px;
+    color: black;
+    font-family: "roboto";
+    font-weight: bolder;
+    font-size: 20px;
+}
+.list-item{
+    display: flex;
+    list-style: none;
+    
+    margin-top: 15px;
+    margin-left:40px;
+  
+}
+.profileNa{
+    display: inline-block;
+    border-radius: 28px;
+    height: 40px;
+    width: 50px;
+    background-color: bisque;
+    text-align: center;
+    font-size: 25px;
+    overflow:hidden;
+    padding-top: 10px;
+    
+}
+.inputTag{
+    border-radius: 10px;
+    width:180px;
+    height:20px;
+    margin-top: 10px;
+    margin-left: 10px;
+    padding-left: 8px;
+    
+}
+.groupName{
+    margin-left: 10px;
+    font-weight: bold;
+}
+.chooseColor{
+    display: inline-block;
+    font-weight: bold;
+    margin-left: 8px;
+    margin-top: 10px;
+    padding-top: 10px;
+}
+.FirstColor{
+   margin: 2px;
+   accent-color: #B38BFA;
+  
+   
+}
+.SecondColor{
+    margin: 2px;
+    accent-color: #FF79F2;
+}
+.ThirdColor{
+    margin: 2px;
+    accent-color: #43E6FC;
+}
+.FourthColor{
+    margin: 2px;
+    accent-color: #F19576;
+}    
+    .FifthColor{
+        margin: 2px;
+        accent-color: #0047FF;
+    }
+.SixthColor{
+    margin:2px;
+    accent-color: #6691FF;
+   
+}
+
+.colorDiv{
+margin-top: 8px;
+
+}
+input[type=radio]{
+    height:25px;
+    width: 25px;
+   
+}
+.creates{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    padding-bottom: 10px;
+}
+.create{
+    
+    height:25px;
+    width: 120px;
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+}
+.section2{
+    background-color: #F7ECDC;
+    height:100%;   
+}
+.headingSection1{
+    background-color: #E8E8E8;    ;
+ height: 55px;
+}
+img{
+  margin-right:  2px;
+    height: 25px;
+    background-color: #E8E8E8;
+   margin-bottom: 5px;
+   
+}
+.image{
+    background-color: #E8E8E8;
+   height: 50px;
+   
+}
+.profile{
+ display: inline-block;
+ font-size: 25px;
+ margin-left: 10px;
+ font-family: "roboto";
+ font-weight: bold;
+padding-top: 10px;
+}
+
+.profileName2{
+   display: inline-flex;
+height:40px;
+background-color: bisque; 
+width: 45px;  
+    overflow:hidden;
+    border-radius: 20px;
+justify-content: center;
+   font-size: 28px;
+   margin-left: 10px;
+   padding-top: 5px;
+}
+.combineTwo{
+    width:100%;
+    height:380px;
+    margin-top: 20px;
+}
+.dates{
+display: inline-block;
+width:35%;
+
+}
+.desc{
+display: inline-block;
+width: 65%;
+
+}
+.textAr{
+    margin-left: 25px;
+height: 120px;
+width: 300px;
+border-color: white;
+border-radius: 8px;
+margin-top: 15px;
+font-size: 15px;
+
+}
+.textAreas{
+    background-color: #E8E8E8;
+    height: 163px;
+    
+}

@@ -1,0 +1,295 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,200&family=Roboto:ital,wght@1,100&family=Single+Day&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    /* background-color: black; */
+}
+
+.firstHalf{
+    display: inline-block;
+    width: 35%;
+    height:100vh;
+    background-color: white;
+   
+  
+}
+.divSection2{
+    display: inline-block;
+    width:70%;
+    background-color: #6691FF;
+}
+.topicName{
+    font-family: "roboto";
+    font-weight: bold;
+    font-size: 40px;
+    margin-left: 20px;
+}
+.AppHeadings{
+    display: block;
+    padding-left: 33px;
+    padding-top: 20px;
+   
+}
+.AddNotesDivs{
+    display: flex;
+    height:40px;
+justify-content: center;
+margin-top: 20px;
+}
+.AddNote{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding-top: 5px;
+    width: 350px;
+    background-color: black;
+    font-family: "roboto";
+
+}
+
+.models{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+    align-items: center;
+    height:230px;
+    width:550px;
+   margin: auto;
+   margin-top: 190px;
+ border-radius: 20px;
+}
+.groupNamess{
+    display: flex;
+    flex-direction: column;
+  margin-left: 20PX;
+  margin-top: 5px;
+    
+}
+.GroupNamesCategorys{
+    margin-left: 15px;
+    margin-top: 10px;
+   font-size: 30px;
+    font-family: "roboto";
+    font-weight: bold;
+}
+.PopHeadings{
+    margin-right: 200px;
+    
+    color: black;
+    font-family: "roboto";
+    font-weight: bolder;
+    font-size: 25px;
+}
+.list-items{
+    display: flex;
+    list-style: none;
+    
+    margin-top: 15px;
+    margin-left:80px;
+  
+}
+.profileNames{
+    display: inline-block;
+    border-radius: 30px;
+    height: 50px;
+    width: 60px;
+    background-color: bisque;
+    text-align: center;
+    font-size: 30px;
+    overflow:hidden;
+    padding-top: 10px;
+    
+    
+}
+.inputTags{
+    border-radius: 10px;
+    width:230px;
+    height:25px;
+    margin-top: 10px;
+    margin-left: 20px;
+    padding-left: 8px;
+    font-weight: bold;
+    
+}
+.groupN{
+    margin-right: 70px;
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.chooseColors{
+    display: inline-block;
+    font-weight: bold;
+   font-size: 22px;
+    margin-top: 10px;
+   padding-top: 10px;
+   margin-left: 45px;
+}
+.colors{
+    margin-right: 60px;
+    padding-right: 60px;
+}
+.FirstColors{
+   margin: 2px;
+   margin-right: 10px;
+   accent-color: #B38BFA;
+  
+}
+.SecondColors{
+    margin: 2px;
+    margin-right: 10px;
+    accent-color: #FF79F2;
+}
+.ThirdColors{
+    margin: 2px;
+    margin-right: 10px;
+    accent-color: #43E6FC;
+}
+.FourthColors{
+    margin: 2px;
+    margin-right: 10px;
+    accent-color: #F19576;
+}    
+    .FifthColors{
+        margin: 2px;
+        margin-right: 10px;
+        accent-color: #0047FF;
+    }
+.SixthColors{
+    margin:2px;
+    margin-right: 10px;
+    accent-color: #6691FF;
+   
+}
+
+.colorDivs{
+margin-top: 10px;
+
+}
+input[type=radio]{
+    height:25px;
+    width: 25px;
+   
+}
+.createss{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+   margin-left: 220px;
+}
+.creat{
+    height:35px;
+    width: 140px;
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+}
+
+
+
+.sections2{
+    background-color: #F7ECDC;
+    height:100%;   
+}
+.headingSection22{
+    background-color: #E8E8E8;    ;
+ height: 55px;
+}
+img{
+  margin-right:  2px;
+    height: 25px;
+    background-color: #E8E8E8;
+   margin-bottom: 5px;
+   
+}
+.images{
+    background-color: #E8E8E8;
+   height: 50px;
+   
+}
+.profiles{
+ display: inline-block;
+ font-size: 25px;
+ margin-left: 10px;
+ font-family: "roboto";
+ font-weight: bold;
+padding-top: 10px;
+}
+
+.profileNames2{
+   display: inline-flex;
+height:40px;
+background-color: bisque; 
+width: 45px;  
+    overflow:hidden;
+    border-radius: 20px;
+justify-content: center;
+   font-size: 28px;
+   margin-left: 10px;
+   padding-top: 5px;
+}
+.combineTwos{
+    width:100%;
+    height:380px;
+    margin-top: 20px;
+}
+.date{
+display: inline-block;
+width:20%;
+font-size: 25px;
+
+}
+.descs{
+display: inline-block;
+width: 80%;
+font-size: 25px;
+
+}
+textArea{
+    margin-left: 25px;
+height: 190px;
+width: 90%;
+border-color: white;
+border-radius: 8px;
+margin-right: 10px;
+font-size: 20px;
+margin-top: 35px;
+
+}
+.textAreass{
+    background-color: #E8E8E8;
+    height: 256px;
+    
+}
+.second22{
+    display: none;
+    position: absolute;
+    top:0;
+    right:0;
+    bottom:0;
+    left:100%;
+    transition: left 0.3s;
+}
+.second22.active{
+    left:0;
+}
+.divSection2 {
+    position: absolute;
+    width: 65%;
+    height: 100%;
+    
+  }
+  .StartJourney{
+    background-image: url("images/backgroundImg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 65%;
+   background-position-x: right;
+  }
